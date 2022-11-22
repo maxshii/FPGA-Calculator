@@ -6,3 +6,4 @@ module bit4adder(input[3:0] a, input[3:0] b, input c_in, output[3:0] sum, output
     full_adder add4(a[3], b[3], c3, sum[3], c_out);
 
 endmodule
+
